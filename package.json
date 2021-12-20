@@ -1,0 +1,21 @@
+{
+  "name": "ahj_http_1_back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "forever": "^4.0.1",
+    "koa": "^2.13.4",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.1.1",
+    "koajs-cors": "^1.0.9",
+    "uuid": "^8.3.2",
+    "ws": "^8.3.0"
+  }
+}
